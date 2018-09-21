@@ -1,0 +1,2637 @@
+EESchema Schematic File Version 4
+LIBS:Ears-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	950  1550 950  2000
+Wire Wire Line
+	8150 2000 8150 2450
+Wire Wire Line
+	8150 2450 950  2450
+Wire Wire Line
+	950  2450 950  2900
+Wire Wire Line
+	8150 2900 8150 3400
+Wire Wire Line
+	8150 3400 1000 3400
+Wire Wire Line
+	1000 3400 1000 3850
+Wire Wire Line
+	1000 4350 1000 4850
+Wire Wire Line
+	1000 5400 1000 5900
+Wire Wire Line
+	5200 5900 5200 6350
+Wire Wire Line
+	5200 6350 1050 6350
+Wire Wire Line
+	1050 6350 1050 6800
+Wire Wire Line
+	2850 6800 3200 6800
+Wire Wire Line
+	9350 1000 9350 1550
+Wire Wire Line
+	9350 1550 950  1550
+Text Label 1500 700  0    50   ~ 0
+VCC
+Text Label 1650 1300 0    50   ~ 0
+GND
+Text Label 1450 1700 0    50   ~ 0
+VCC
+$Comp
+L power:GND #PWR07
+U 1 1 5B9E8B60
+P 700 1300
+F 0 "#PWR07" H 700 1050 50  0001 C CNN
+F 1 "GND" H 705 1127 50  0000 C CNN
+F 2 "" H 700 1300 50  0001 C CNN
+F 3 "" H 700 1300 50  0001 C CNN
+	1    700  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 5B9EC445
+P 700 700
+F 0 "#PWR06" H 700 550 50  0001 C CNN
+F 1 "VCC" H 717 873 50  0000 C CNN
+F 2 "" H 700 700 50  0001 C CNN
+F 3 "" H 700 700 50  0001 C CNN
+	1    700  700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR08
+U 1 1 5B9EFE82
+P 700 1700
+F 0 "#PWR08" H 700 1550 50  0001 C CNN
+F 1 "VCC" H 717 1873 50  0000 C CNN
+F 2 "" H 700 1700 50  0001 C CNN
+F 3 "" H 700 1700 50  0001 C CNN
+	1    700  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5B9EFF11
+P 700 2300
+F 0 "#PWR09" H 700 2050 50  0001 C CNN
+F 1 "GND" H 705 2127 50  0000 C CNN
+F 2 "" H 700 2300 50  0001 C CNN
+F 3 "" H 700 2300 50  0001 C CNN
+	1    700  2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5B9F78B0
+P 550 2600
+F 0 "#PWR01" H 550 2450 50  0001 C CNN
+F 1 "VCC" H 567 2773 50  0000 C CNN
+F 2 "" H 550 2600 50  0001 C CNN
+F 3 "" H 550 2600 50  0001 C CNN
+	1    550  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5B9F793F
+P 850 3200
+F 0 "#PWR013" H 850 2950 50  0001 C CNN
+F 1 "GND" H 855 3027 50  0000 C CNN
+F 2 "" H 850 3200 50  0001 C CNN
+F 3 "" H 850 3200 50  0001 C CNN
+	1    850  3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5B9F79CE
+P 550 3550
+F 0 "#PWR02" H 550 3400 50  0001 C CNN
+F 1 "VCC" H 567 3723 50  0000 C CNN
+F 2 "" H 550 3550 50  0001 C CNN
+F 3 "" H 550 3550 50  0001 C CNN
+	1    550  3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5B9F7A5D
+P 800 4150
+F 0 "#PWR010" H 800 3900 50  0001 C CNN
+F 1 "GND" H 805 3977 50  0000 C CNN
+F 2 "" H 800 4150 50  0001 C CNN
+F 3 "" H 800 4150 50  0001 C CNN
+	1    800  4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5B9F7B70
+P 600 4550
+F 0 "#PWR03" H 600 4400 50  0001 C CNN
+F 1 "VCC" H 617 4723 50  0000 C CNN
+F 2 "" H 600 4550 50  0001 C CNN
+F 3 "" H 600 4550 50  0001 C CNN
+	1    600  4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5B9F7BFF
+P 800 5150
+F 0 "#PWR011" H 800 4900 50  0001 C CNN
+F 1 "GND" H 805 4977 50  0000 C CNN
+F 2 "" H 800 5150 50  0001 C CNN
+F 3 "" H 800 5150 50  0001 C CNN
+	1    800  5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5B9F7C8E
+P 600 5600
+F 0 "#PWR04" H 600 5450 50  0001 C CNN
+F 1 "VCC" H 617 5773 50  0000 C CNN
+F 2 "" H 600 5600 50  0001 C CNN
+F 3 "" H 600 5600 50  0001 C CNN
+	1    600  5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5B9F7D1D
+P 850 6200
+F 0 "#PWR014" H 850 5950 50  0001 C CNN
+F 1 "GND" H 855 6027 50  0000 C CNN
+F 2 "" H 850 6200 50  0001 C CNN
+F 3 "" H 850 6200 50  0001 C CNN
+	1    850  6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5B9F7DAC
+P 600 6500
+F 0 "#PWR05" H 600 6350 50  0001 C CNN
+F 1 "VCC" H 617 6673 50  0000 C CNN
+F 2 "" H 600 6500 50  0001 C CNN
+F 3 "" H 600 6500 50  0001 C CNN
+	1    600  6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5B9F7EBF
+P 800 7100
+F 0 "#PWR012" H 800 6850 50  0001 C CNN
+F 1 "GND" H 805 6927 50  0000 C CNN
+F 2 "" H 800 7100 50  0001 C CNN
+F 3 "" H 800 7100 50  0001 C CNN
+	1    800  7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5BA7E6AD
+P 5900 5750
+F 0 "C4" H 5900 5950 50  0000 L CNN
+F 1 "1uF" H 5850 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5900 5750 50  0001 C CNN
+F 3 "~" H 5900 5750 50  0001 C CNN
+	1    5900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5BA7ECC4
+P 6050 5750
+F 0 "C6" H 6050 5950 50  0000 L CNN
+F 1 "1uF" H 6000 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6050 5750 50  0001 C CNN
+F 3 "~" H 6050 5750 50  0001 C CNN
+	1    6050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5BA7ED5E
+P 6200 5750
+F 0 "C8" H 6200 5950 50  0000 L CNN
+F 1 "1uF" H 6150 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6200 5750 50  0001 C CNN
+F 3 "~" H 6200 5750 50  0001 C CNN
+	1    6200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5BA7EDFE
+P 6350 5750
+F 0 "C10" H 6350 5950 50  0000 L CNN
+F 1 "1uF" H 6300 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6350 5750 50  0001 C CNN
+F 3 "~" H 6350 5750 50  0001 C CNN
+	1    6350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5BA7EE9A
+P 6500 5750
+F 0 "C12" H 6500 5950 50  0000 L CNN
+F 1 "1uF" H 6450 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6500 5750 50  0001 C CNN
+F 3 "~" H 6500 5750 50  0001 C CNN
+	1    6500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5BA7F021
+P 6650 5750
+F 0 "C14" H 6650 5950 50  0000 L CNN
+F 1 "1uF" H 6600 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6650 5750 50  0001 C CNN
+F 3 "~" H 6650 5750 50  0001 C CNN
+	1    6650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5BA7F0C1
+P 6800 5750
+F 0 "C16" H 6800 5950 50  0000 L CNN
+F 1 "1uF" H 6750 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6800 5750 50  0001 C CNN
+F 3 "~" H 6800 5750 50  0001 C CNN
+	1    6800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 5BA7F252
+P 6950 5750
+F 0 "C18" H 6950 5950 50  0000 L CNN
+F 1 "1uF" H 6900 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6950 5750 50  0001 C CNN
+F 3 "~" H 6950 5750 50  0001 C CNN
+	1    6950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 5BA7F300
+P 7100 5750
+F 0 "C20" H 7100 5950 50  0000 L CNN
+F 1 "1uF" H 7050 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7100 5750 50  0001 C CNN
+F 3 "~" H 7100 5750 50  0001 C CNN
+	1    7100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 5BA7F3AC
+P 7250 5750
+F 0 "C23" H 7250 5950 50  0000 L CNN
+F 1 "1uF" H 7200 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7250 5750 50  0001 C CNN
+F 3 "~" H 7250 5750 50  0001 C CNN
+	1    7250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 5BA7F456
+P 7400 5750
+F 0 "C26" H 7400 5950 50  0000 L CNN
+F 1 "1uF" H 7350 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7400 5750 50  0001 C CNN
+F 3 "~" H 7400 5750 50  0001 C CNN
+	1    7400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 5BA7F502
+P 7550 5750
+F 0 "C29" H 7550 5950 50  0000 L CNN
+F 1 "1uF" H 7500 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7550 5750 50  0001 C CNN
+F 3 "~" H 7550 5750 50  0001 C CNN
+	1    7550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 5BA7F5B0
+P 7700 5750
+F 0 "C32" H 7700 5950 50  0000 L CNN
+F 1 "1uF" H 7650 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7700 5750 50  0001 C CNN
+F 3 "~" H 7700 5750 50  0001 C CNN
+	1    7700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C35
+U 1 1 5BA7F65E
+P 7850 5750
+F 0 "C35" H 7850 5950 50  0000 L CNN
+F 1 "1uF" H 7800 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7850 5750 50  0001 C CNN
+F 3 "~" H 7850 5750 50  0001 C CNN
+	1    7850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5BA7F914
+P 5750 5750
+F 0 "C2" H 5750 5950 50  0000 L CNN
+F 1 "1uF" H 5700 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5750 5750 50  0001 C CNN
+F 3 "~" H 5750 5750 50  0001 C CNN
+	1    5750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C41
+U 1 1 5BA96F6B
+P 8150 5750
+F 0 "C41" H 8150 5950 50  0000 L CNN
+F 1 "1uF" H 8100 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8150 5750 50  0001 C CNN
+F 3 "~" H 8150 5750 50  0001 C CNN
+	1    8150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C44
+U 1 1 5BA96F72
+P 8300 5750
+F 0 "C44" H 8300 5950 50  0000 L CNN
+F 1 "1uF" H 8250 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8300 5750 50  0001 C CNN
+F 3 "~" H 8300 5750 50  0001 C CNN
+	1    8300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C47
+U 1 1 5BA96F79
+P 8450 5750
+F 0 "C47" H 8450 5950 50  0000 L CNN
+F 1 "1uF" H 8400 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8450 5750 50  0001 C CNN
+F 3 "~" H 8450 5750 50  0001 C CNN
+	1    8450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C50
+U 1 1 5BA96F80
+P 8600 5750
+F 0 "C50" H 8600 5950 50  0000 L CNN
+F 1 "1uF" H 8550 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8600 5750 50  0001 C CNN
+F 3 "~" H 8600 5750 50  0001 C CNN
+	1    8600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C53
+U 1 1 5BA96F87
+P 8750 5750
+F 0 "C53" H 8750 5950 50  0000 L CNN
+F 1 "1uF" H 8700 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8750 5750 50  0001 C CNN
+F 3 "~" H 8750 5750 50  0001 C CNN
+	1    8750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C55
+U 1 1 5BA96F8E
+P 8900 5750
+F 0 "C55" H 8900 5950 50  0000 L CNN
+F 1 "1uF" H 8850 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8900 5750 50  0001 C CNN
+F 3 "~" H 8900 5750 50  0001 C CNN
+	1    8900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C57
+U 1 1 5BA96F95
+P 9050 5750
+F 0 "C57" H 9050 5950 50  0000 L CNN
+F 1 "1uF" H 9000 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9050 5750 50  0001 C CNN
+F 3 "~" H 9050 5750 50  0001 C CNN
+	1    9050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C59
+U 1 1 5BA96F9C
+P 9200 5750
+F 0 "C59" H 9200 5950 50  0000 L CNN
+F 1 "1uF" H 9150 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9200 5750 50  0001 C CNN
+F 3 "~" H 9200 5750 50  0001 C CNN
+	1    9200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C61
+U 1 1 5BA96FA3
+P 9350 5750
+F 0 "C61" H 9350 5950 50  0000 L CNN
+F 1 "1uF" H 9300 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9350 5750 50  0001 C CNN
+F 3 "~" H 9350 5750 50  0001 C CNN
+	1    9350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C63
+U 1 1 5BA96FAA
+P 9500 5750
+F 0 "C63" H 9500 5950 50  0000 L CNN
+F 1 "1uF" H 9450 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9500 5750 50  0001 C CNN
+F 3 "~" H 9500 5750 50  0001 C CNN
+	1    9500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C65
+U 1 1 5BA96FB1
+P 9650 5750
+F 0 "C65" H 9650 5950 50  0000 L CNN
+F 1 "1uF" H 9600 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9650 5750 50  0001 C CNN
+F 3 "~" H 9650 5750 50  0001 C CNN
+	1    9650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C67
+U 1 1 5BA96FB8
+P 9800 5750
+F 0 "C67" H 9800 5950 50  0000 L CNN
+F 1 "1uF" H 9750 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9800 5750 50  0001 C CNN
+F 3 "~" H 9800 5750 50  0001 C CNN
+	1    9800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C38
+U 1 1 5BA96FCD
+P 8000 5750
+F 0 "C38" H 8000 5950 50  0000 L CNN
+F 1 "1uF" H 7950 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8000 5750 50  0001 C CNN
+F 3 "~" H 8000 5750 50  0001 C CNN
+	1    8000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5BAC5BFE
+P 5900 6400
+F 0 "C5" H 5900 6600 50  0000 L CNN
+F 1 "1uF" H 5850 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5900 6400 50  0001 C CNN
+F 3 "~" H 5900 6400 50  0001 C CNN
+	1    5900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5BAC5C05
+P 6050 6400
+F 0 "C7" H 6050 6600 50  0000 L CNN
+F 1 "1uF" H 6000 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6050 6400 50  0001 C CNN
+F 3 "~" H 6050 6400 50  0001 C CNN
+	1    6050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5BAC5C0C
+P 6200 6400
+F 0 "C9" H 6200 6600 50  0000 L CNN
+F 1 "1uF" H 6150 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6200 6400 50  0001 C CNN
+F 3 "~" H 6200 6400 50  0001 C CNN
+	1    6200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5BAC5C13
+P 6350 6400
+F 0 "C11" H 6350 6600 50  0000 L CNN
+F 1 "1uF" H 6300 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6350 6400 50  0001 C CNN
+F 3 "~" H 6350 6400 50  0001 C CNN
+	1    6350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5BAC5C1A
+P 6500 6400
+F 0 "C13" H 6500 6600 50  0000 L CNN
+F 1 "1uF" H 6450 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6500 6400 50  0001 C CNN
+F 3 "~" H 6500 6400 50  0001 C CNN
+	1    6500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 5BAC5C21
+P 6650 6400
+F 0 "C15" H 6650 6600 50  0000 L CNN
+F 1 "1uF" H 6600 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6650 6400 50  0001 C CNN
+F 3 "~" H 6650 6400 50  0001 C CNN
+	1    6650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 5BAC5C28
+P 6800 6400
+F 0 "C17" H 6800 6600 50  0000 L CNN
+F 1 "1uF" H 6750 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6800 6400 50  0001 C CNN
+F 3 "~" H 6800 6400 50  0001 C CNN
+	1    6800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 5BAC5C2F
+P 6950 6400
+F 0 "C19" H 6950 6600 50  0000 L CNN
+F 1 "1uF" H 6900 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6950 6400 50  0001 C CNN
+F 3 "~" H 6950 6400 50  0001 C CNN
+	1    6950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 5BAC5C36
+P 7100 6400
+F 0 "C21" H 7100 6600 50  0000 L CNN
+F 1 "1uF" H 7050 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7100 6400 50  0001 C CNN
+F 3 "~" H 7100 6400 50  0001 C CNN
+	1    7100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 5BAC5C3D
+P 7250 6400
+F 0 "C24" H 7250 6600 50  0000 L CNN
+F 1 "1uF" H 7200 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7250 6400 50  0001 C CNN
+F 3 "~" H 7250 6400 50  0001 C CNN
+	1    7250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 5BAC5C44
+P 7400 6400
+F 0 "C27" H 7400 6600 50  0000 L CNN
+F 1 "1uF" H 7350 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7400 6400 50  0001 C CNN
+F 3 "~" H 7400 6400 50  0001 C CNN
+	1    7400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 5BAC5C4B
+P 7550 6400
+F 0 "C30" H 7550 6600 50  0000 L CNN
+F 1 "1uF" H 7500 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7550 6400 50  0001 C CNN
+F 3 "~" H 7550 6400 50  0001 C CNN
+	1    7550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C33
+U 1 1 5BAC5C52
+P 7700 6400
+F 0 "C33" H 7700 6600 50  0000 L CNN
+F 1 "1uF" H 7650 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7700 6400 50  0001 C CNN
+F 3 "~" H 7700 6400 50  0001 C CNN
+	1    7700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 5BAC5C59
+P 7850 6400
+F 0 "C36" H 7850 6600 50  0000 L CNN
+F 1 "1uF" H 7800 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7850 6400 50  0001 C CNN
+F 3 "~" H 7850 6400 50  0001 C CNN
+	1    7850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5BAC5C60
+P 5750 6400
+F 0 "C3" H 5750 6600 50  0000 L CNN
+F 1 "1uF" H 5700 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5750 6400 50  0001 C CNN
+F 3 "~" H 5750 6400 50  0001 C CNN
+	1    5750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C42
+U 1 1 5BAC5C67
+P 8150 6400
+F 0 "C42" H 8150 6600 50  0000 L CNN
+F 1 "1uF" H 8100 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8150 6400 50  0001 C CNN
+F 3 "~" H 8150 6400 50  0001 C CNN
+	1    8150 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C45
+U 1 1 5BAC5C6E
+P 8300 6400
+F 0 "C45" H 8300 6600 50  0000 L CNN
+F 1 "1uF" H 8250 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8300 6400 50  0001 C CNN
+F 3 "~" H 8300 6400 50  0001 C CNN
+	1    8300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C48
+U 1 1 5BAC5C75
+P 8450 6400
+F 0 "C48" H 8450 6600 50  0000 L CNN
+F 1 "1uF" H 8400 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8450 6400 50  0001 C CNN
+F 3 "~" H 8450 6400 50  0001 C CNN
+	1    8450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C51
+U 1 1 5BAC5C7C
+P 8600 6400
+F 0 "C51" H 8600 6600 50  0000 L CNN
+F 1 "1uF" H 8550 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8600 6400 50  0001 C CNN
+F 3 "~" H 8600 6400 50  0001 C CNN
+	1    8600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C54
+U 1 1 5BAC5C83
+P 8750 6400
+F 0 "C54" H 8750 6600 50  0000 L CNN
+F 1 "1uF" H 8700 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8750 6400 50  0001 C CNN
+F 3 "~" H 8750 6400 50  0001 C CNN
+	1    8750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C56
+U 1 1 5BAC5C8A
+P 8900 6400
+F 0 "C56" H 8900 6600 50  0000 L CNN
+F 1 "1uF" H 8850 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8900 6400 50  0001 C CNN
+F 3 "~" H 8900 6400 50  0001 C CNN
+	1    8900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C58
+U 1 1 5BAC5C91
+P 9050 6400
+F 0 "C58" H 9050 6600 50  0000 L CNN
+F 1 "1uF" H 9000 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9050 6400 50  0001 C CNN
+F 3 "~" H 9050 6400 50  0001 C CNN
+	1    9050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C60
+U 1 1 5BAC5C98
+P 9200 6400
+F 0 "C60" H 9200 6600 50  0000 L CNN
+F 1 "1uF" H 9150 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9200 6400 50  0001 C CNN
+F 3 "~" H 9200 6400 50  0001 C CNN
+	1    9200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C62
+U 1 1 5BAC5C9F
+P 9350 6400
+F 0 "C62" H 9350 6600 50  0000 L CNN
+F 1 "1uF" H 9300 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9350 6400 50  0001 C CNN
+F 3 "~" H 9350 6400 50  0001 C CNN
+	1    9350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C64
+U 1 1 5BAC5CA6
+P 9500 6400
+F 0 "C64" H 9500 6600 50  0000 L CNN
+F 1 "1uF" H 9450 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9500 6400 50  0001 C CNN
+F 3 "~" H 9500 6400 50  0001 C CNN
+	1    9500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C66
+U 1 1 5BAC5CAD
+P 9650 6400
+F 0 "C66" H 9650 6600 50  0000 L CNN
+F 1 "1uF" H 9600 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9650 6400 50  0001 C CNN
+F 3 "~" H 9650 6400 50  0001 C CNN
+	1    9650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C39
+U 1 1 5BAC5CC9
+P 8000 6400
+F 0 "C39" H 8000 6600 50  0000 L CNN
+F 1 "1uF" H 7950 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8000 6400 50  0001 C CNN
+F 3 "~" H 8000 6400 50  0001 C CNN
+	1    8000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 5BADD204
+P 7200 5100
+F 0 "C22" H 7200 5300 50  0000 L CNN
+F 1 "1uF" H 7150 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7200 5100 50  0001 C CNN
+F 3 "~" H 7200 5100 50  0001 C CNN
+	1    7200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 5BADD20B
+P 7350 5100
+F 0 "C25" H 7350 5300 50  0000 L CNN
+F 1 "1uF" H 7300 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7350 5100 50  0001 C CNN
+F 3 "~" H 7350 5100 50  0001 C CNN
+	1    7350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 5BADD212
+P 7500 5100
+F 0 "C28" H 7500 5300 50  0000 L CNN
+F 1 "1uF" H 7450 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7500 5100 50  0001 C CNN
+F 3 "~" H 7500 5100 50  0001 C CNN
+	1    7500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 5BADD219
+P 7650 5100
+F 0 "C31" H 7650 5300 50  0000 L CNN
+F 1 "1uF" H 7600 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7650 5100 50  0001 C CNN
+F 3 "~" H 7650 5100 50  0001 C CNN
+	1    7650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C34
+U 1 1 5BADD220
+P 7800 5100
+F 0 "C34" H 7800 5300 50  0000 L CNN
+F 1 "1uF" H 7750 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7800 5100 50  0001 C CNN
+F 3 "~" H 7800 5100 50  0001 C CNN
+	1    7800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 5BADD227
+P 7950 5100
+F 0 "C37" H 7950 5300 50  0000 L CNN
+F 1 "1uF" H 7900 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7950 5100 50  0001 C CNN
+F 3 "~" H 7950 5100 50  0001 C CNN
+	1    7950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C40
+U 1 1 5BADD22E
+P 8100 5100
+F 0 "C40" H 8100 5300 50  0000 L CNN
+F 1 "1uF" H 8050 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8100 5100 50  0001 C CNN
+F 3 "~" H 8100 5100 50  0001 C CNN
+	1    8100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C43
+U 1 1 5BADD235
+P 8250 5100
+F 0 "C43" H 8250 5300 50  0000 L CNN
+F 1 "1uF" H 8200 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8250 5100 50  0001 C CNN
+F 3 "~" H 8250 5100 50  0001 C CNN
+	1    8250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C46
+U 1 1 5BADD23C
+P 8400 5100
+F 0 "C46" H 8400 5300 50  0000 L CNN
+F 1 "1uF" H 8350 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8400 5100 50  0001 C CNN
+F 3 "~" H 8400 5100 50  0001 C CNN
+	1    8400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C49
+U 1 1 5BADD243
+P 8550 5100
+F 0 "C49" H 8550 5300 50  0000 L CNN
+F 1 "1uF" H 8500 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8550 5100 50  0001 C CNN
+F 3 "~" H 8550 5100 50  0001 C CNN
+	1    8550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C52
+U 1 1 5BADD24A
+P 8700 5100
+F 0 "C52" H 8700 5300 50  0000 L CNN
+F 1 "1uF" H 8650 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8700 5100 50  0001 C CNN
+F 3 "~" H 8700 5100 50  0001 C CNN
+	1    8700 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5000 7350 5000
+Connection ~ 7350 5000
+Wire Wire Line
+	7350 5000 7500 5000
+Connection ~ 7500 5000
+Wire Wire Line
+	7500 5000 7650 5000
+Connection ~ 7650 5000
+Wire Wire Line
+	7650 5000 7800 5000
+Connection ~ 7800 5000
+Wire Wire Line
+	7800 5000 7950 5000
+Connection ~ 7950 5000
+Wire Wire Line
+	7950 5000 8100 5000
+Connection ~ 8100 5000
+Wire Wire Line
+	8100 5000 8250 5000
+Connection ~ 8250 5000
+Wire Wire Line
+	8250 5000 8400 5000
+Connection ~ 8400 5000
+Wire Wire Line
+	8400 5000 8550 5000
+Connection ~ 8550 5000
+Wire Wire Line
+	8550 5000 8700 5000
+Wire Wire Line
+	8700 5200 8550 5200
+Connection ~ 7350 5200
+Wire Wire Line
+	7350 5200 7200 5200
+Connection ~ 7500 5200
+Wire Wire Line
+	7500 5200 7350 5200
+Connection ~ 7650 5200
+Wire Wire Line
+	7650 5200 7500 5200
+Connection ~ 7800 5200
+Wire Wire Line
+	7800 5200 7650 5200
+Connection ~ 7950 5200
+Wire Wire Line
+	7950 5200 7800 5200
+Connection ~ 8100 5200
+Wire Wire Line
+	8100 5200 7950 5200
+Connection ~ 8250 5200
+Wire Wire Line
+	8250 5200 8100 5200
+Connection ~ 8400 5200
+Wire Wire Line
+	8400 5200 8250 5200
+Connection ~ 8550 5200
+Wire Wire Line
+	8550 5200 8400 5200
+$Comp
+L power:VCC #PWR023
+U 1 1 5BB237C1
+P 6900 4950
+F 0 "#PWR023" H 6900 4800 50  0001 C CNN
+F 1 "VCC" H 6917 5123 50  0000 C CNN
+F 2 "" H 6900 4950 50  0001 C CNN
+F 3 "" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR017
+U 1 1 5BB2396E
+P 5500 5650
+F 0 "#PWR017" H 5500 5500 50  0001 C CNN
+F 1 "VCC" H 5517 5823 50  0000 C CNN
+F 2 "" H 5500 5650 50  0001 C CNN
+F 3 "" H 5500 5650 50  0001 C CNN
+	1    5500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR019
+U 1 1 5BB23A8B
+P 5500 6300
+F 0 "#PWR019" H 5500 6150 50  0001 C CNN
+F 1 "VCC" H 5517 6473 50  0000 C CNN
+F 2 "" H 5500 6300 50  0001 C CNN
+F 3 "" H 5500 6300 50  0001 C CNN
+	1    5500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5BB23E6C
+P 6900 5200
+F 0 "#PWR024" H 6900 4950 50  0001 C CNN
+F 1 "GND" H 6905 5027 50  0000 C CNN
+F 2 "" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5BB240A2
+P 5500 5850
+F 0 "#PWR018" H 5500 5600 50  0001 C CNN
+F 1 "GND" H 5505 5677 50  0000 C CNN
+F 2 "" H 5500 5850 50  0001 C CNN
+F 3 "" H 5500 5850 50  0001 C CNN
+	1    5500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5BB241BF
+P 5500 6500
+F 0 "#PWR020" H 5500 6250 50  0001 C CNN
+F 1 "GND" H 5505 6327 50  0000 C CNN
+F 2 "" H 5500 6500 50  0001 C CNN
+F 3 "" H 5500 6500 50  0001 C CNN
+	1    5500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6500 5750 6500
+Connection ~ 5750 6500
+Wire Wire Line
+	5750 6500 5900 6500
+Connection ~ 5900 6500
+Wire Wire Line
+	5900 6500 6050 6500
+Connection ~ 6050 6500
+Wire Wire Line
+	6050 6500 6200 6500
+Connection ~ 6200 6500
+Wire Wire Line
+	6200 6500 6350 6500
+Connection ~ 6350 6500
+Wire Wire Line
+	6350 6500 6500 6500
+Connection ~ 6500 6500
+Wire Wire Line
+	6500 6500 6650 6500
+Connection ~ 6650 6500
+Wire Wire Line
+	6650 6500 6800 6500
+Connection ~ 6800 6500
+Wire Wire Line
+	6800 6500 6950 6500
+Connection ~ 6950 6500
+Wire Wire Line
+	6950 6500 7100 6500
+Connection ~ 7100 6500
+Wire Wire Line
+	7100 6500 7250 6500
+Connection ~ 7250 6500
+Wire Wire Line
+	7250 6500 7400 6500
+Connection ~ 7400 6500
+Wire Wire Line
+	7400 6500 7550 6500
+Connection ~ 7550 6500
+Wire Wire Line
+	7550 6500 7700 6500
+Connection ~ 7700 6500
+Wire Wire Line
+	7700 6500 7850 6500
+Connection ~ 7850 6500
+Wire Wire Line
+	7850 6500 8000 6500
+Connection ~ 8000 6500
+Wire Wire Line
+	8000 6500 8150 6500
+Connection ~ 8150 6500
+Wire Wire Line
+	8150 6500 8300 6500
+Connection ~ 8300 6500
+Wire Wire Line
+	8300 6500 8450 6500
+Connection ~ 8450 6500
+Wire Wire Line
+	8450 6500 8600 6500
+Connection ~ 8600 6500
+Wire Wire Line
+	8600 6500 8750 6500
+Connection ~ 8750 6500
+Wire Wire Line
+	8750 6500 8900 6500
+Connection ~ 8900 6500
+Wire Wire Line
+	8900 6500 9050 6500
+Connection ~ 9050 6500
+Wire Wire Line
+	9050 6500 9200 6500
+Connection ~ 9200 6500
+Wire Wire Line
+	9200 6500 9350 6500
+Connection ~ 9350 6500
+Wire Wire Line
+	9350 6500 9500 6500
+Connection ~ 9500 6500
+Wire Wire Line
+	9500 6500 9650 6500
+Connection ~ 5750 6300
+Wire Wire Line
+	5750 6300 5500 6300
+Connection ~ 5900 6300
+Wire Wire Line
+	5900 6300 5750 6300
+Connection ~ 6050 6300
+Wire Wire Line
+	6050 6300 5900 6300
+Connection ~ 6200 6300
+Wire Wire Line
+	6200 6300 6050 6300
+Connection ~ 6350 6300
+Wire Wire Line
+	6350 6300 6200 6300
+Connection ~ 6500 6300
+Wire Wire Line
+	6500 6300 6350 6300
+Connection ~ 6650 6300
+Wire Wire Line
+	6650 6300 6500 6300
+Connection ~ 6800 6300
+Wire Wire Line
+	6800 6300 6650 6300
+Connection ~ 6950 6300
+Wire Wire Line
+	6950 6300 6800 6300
+Connection ~ 7100 6300
+Wire Wire Line
+	7100 6300 6950 6300
+Connection ~ 7250 6300
+Wire Wire Line
+	7250 6300 7100 6300
+Connection ~ 7400 6300
+Wire Wire Line
+	7400 6300 7250 6300
+Connection ~ 7550 6300
+Wire Wire Line
+	7550 6300 7400 6300
+Connection ~ 7700 6300
+Wire Wire Line
+	7700 6300 7550 6300
+Connection ~ 7850 6300
+Wire Wire Line
+	7850 6300 7700 6300
+Connection ~ 8000 6300
+Wire Wire Line
+	8000 6300 7850 6300
+Connection ~ 8150 6300
+Wire Wire Line
+	8150 6300 8000 6300
+Connection ~ 8300 6300
+Wire Wire Line
+	8300 6300 8150 6300
+Connection ~ 8450 6300
+Wire Wire Line
+	8450 6300 8300 6300
+Connection ~ 8600 6300
+Wire Wire Line
+	8600 6300 8450 6300
+Connection ~ 8750 6300
+Wire Wire Line
+	8750 6300 8600 6300
+Connection ~ 8900 6300
+Wire Wire Line
+	8900 6300 8750 6300
+Connection ~ 9050 6300
+Wire Wire Line
+	9050 6300 8900 6300
+Connection ~ 9200 6300
+Wire Wire Line
+	9200 6300 9050 6300
+Connection ~ 9350 6300
+Wire Wire Line
+	9350 6300 9200 6300
+Connection ~ 9500 6300
+Wire Wire Line
+	9500 6300 9350 6300
+Wire Wire Line
+	9650 6300 9500 6300
+Wire Wire Line
+	5500 5850 5750 5850
+Connection ~ 5750 5850
+Wire Wire Line
+	5750 5850 5900 5850
+Connection ~ 5900 5850
+Wire Wire Line
+	5900 5850 6050 5850
+Connection ~ 6050 5850
+Wire Wire Line
+	6050 5850 6200 5850
+Connection ~ 6200 5850
+Wire Wire Line
+	6200 5850 6350 5850
+Connection ~ 6350 5850
+Wire Wire Line
+	6350 5850 6500 5850
+Connection ~ 6500 5850
+Wire Wire Line
+	6500 5850 6650 5850
+Connection ~ 6650 5850
+Wire Wire Line
+	6650 5850 6800 5850
+Connection ~ 6800 5850
+Wire Wire Line
+	6800 5850 6950 5850
+Connection ~ 6950 5850
+Wire Wire Line
+	6950 5850 7100 5850
+Connection ~ 7100 5850
+Wire Wire Line
+	7100 5850 7250 5850
+Connection ~ 7250 5850
+Wire Wire Line
+	7250 5850 7400 5850
+Connection ~ 7400 5850
+Wire Wire Line
+	7400 5850 7550 5850
+Connection ~ 7550 5850
+Wire Wire Line
+	7550 5850 7700 5850
+Connection ~ 7700 5850
+Wire Wire Line
+	7700 5850 7850 5850
+Connection ~ 7850 5850
+Wire Wire Line
+	7850 5850 8000 5850
+Connection ~ 8000 5850
+Wire Wire Line
+	8000 5850 8150 5850
+Connection ~ 8150 5850
+Wire Wire Line
+	8150 5850 8300 5850
+Connection ~ 8300 5850
+Wire Wire Line
+	8300 5850 8450 5850
+Connection ~ 8450 5850
+Wire Wire Line
+	8450 5850 8600 5850
+Connection ~ 8600 5850
+Wire Wire Line
+	8600 5850 8750 5850
+Connection ~ 8750 5850
+Wire Wire Line
+	8750 5850 8900 5850
+Connection ~ 8900 5850
+Wire Wire Line
+	8900 5850 9050 5850
+Connection ~ 9050 5850
+Wire Wire Line
+	9050 5850 9200 5850
+Connection ~ 9200 5850
+Wire Wire Line
+	9200 5850 9350 5850
+Connection ~ 9350 5850
+Wire Wire Line
+	9350 5850 9500 5850
+Connection ~ 9500 5850
+Wire Wire Line
+	9500 5850 9650 5850
+Connection ~ 9650 5850
+Wire Wire Line
+	9650 5850 9800 5850
+Connection ~ 5750 5650
+Wire Wire Line
+	5750 5650 5500 5650
+Connection ~ 5900 5650
+Wire Wire Line
+	5900 5650 5750 5650
+Connection ~ 6050 5650
+Wire Wire Line
+	6050 5650 5900 5650
+Connection ~ 6200 5650
+Wire Wire Line
+	6200 5650 6050 5650
+Connection ~ 6350 5650
+Wire Wire Line
+	6350 5650 6200 5650
+Connection ~ 6500 5650
+Wire Wire Line
+	6500 5650 6350 5650
+Connection ~ 6650 5650
+Wire Wire Line
+	6650 5650 6500 5650
+Connection ~ 6800 5650
+Wire Wire Line
+	6800 5650 6650 5650
+Connection ~ 6950 5650
+Wire Wire Line
+	6950 5650 6800 5650
+Connection ~ 7100 5650
+Wire Wire Line
+	7100 5650 6950 5650
+Connection ~ 7250 5650
+Wire Wire Line
+	7250 5650 7100 5650
+Connection ~ 7400 5650
+Wire Wire Line
+	7400 5650 7250 5650
+Connection ~ 7550 5650
+Wire Wire Line
+	7550 5650 7400 5650
+Connection ~ 7700 5650
+Wire Wire Line
+	7700 5650 7550 5650
+Connection ~ 7850 5650
+Wire Wire Line
+	7850 5650 7700 5650
+Connection ~ 8000 5650
+Wire Wire Line
+	8000 5650 7850 5650
+Connection ~ 8150 5650
+Wire Wire Line
+	8150 5650 8000 5650
+Connection ~ 8300 5650
+Wire Wire Line
+	8300 5650 8150 5650
+Connection ~ 8450 5650
+Wire Wire Line
+	8450 5650 8300 5650
+Connection ~ 8600 5650
+Wire Wire Line
+	8600 5650 8450 5650
+Connection ~ 8750 5650
+Wire Wire Line
+	8750 5650 8600 5650
+Connection ~ 8900 5650
+Wire Wire Line
+	8900 5650 8750 5650
+Connection ~ 9050 5650
+Wire Wire Line
+	9050 5650 8900 5650
+Connection ~ 9200 5650
+Wire Wire Line
+	9200 5650 9050 5650
+Connection ~ 9350 5650
+Wire Wire Line
+	9350 5650 9200 5650
+Connection ~ 9500 5650
+Wire Wire Line
+	9500 5650 9350 5650
+Connection ~ 9650 5650
+Wire Wire Line
+	9650 5650 9500 5650
+Wire Wire Line
+	9800 5650 9650 5650
+Wire Wire Line
+	6900 5200 7200 5200
+Connection ~ 7200 5200
+Wire Wire Line
+	7200 5000 6900 5000
+Wire Wire Line
+	6900 5000 6900 4950
+Connection ~ 7200 5000
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5BC228AD
+P 3700 7250
+F 0 "J1" H 3806 7628 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3806 7537 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 3700 7250 50  0001 C CNN
+F 3 "~" H 3700 7250 50  0001 C CNN
+	1    3700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 7050 4600 7050
+Wire Wire Line
+	3900 7150 4600 7150
+$Comp
+L Device:R_Small R1
+U 1 1 5BD04AEA
+P 850 1000
+F 0 "R1" V 654 1000 50  0000 C CNN
+F 1 "22" V 745 1000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 850 1000 50  0001 C CNN
+F 3 "~" H 850 1000 50  0001 C CNN
+	1    850  1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  1000 550  1000
+Text Label 550  1000 0    50   ~ 0
+DIN
+$Comp
+L Device:R_Small R2
+U 1 1 5BD3EB25
+P 3300 6800
+F 0 "R2" V 3104 6800 50  0000 C CNN
+F 1 "22" V 3195 6800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3300 6800 50  0001 C CNN
+F 3 "~" H 3300 6800 50  0001 C CNN
+	1    3300 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 6800 3650 6800
+Text Label 3450 6800 0    50   ~ 0
+DOUT
+Wire Wire Line
+	3900 7450 4600 7450
+Wire Wire Line
+	3900 7550 4600 7550
+$Comp
+L power:VCC #PWR015
+U 1 1 5BDED6C5
+P 4600 6900
+F 0 "#PWR015" H 4600 6750 50  0001 C CNN
+F 1 "VCC" H 4617 7073 50  0000 C CNN
+F 2 "" H 4600 6900 50  0001 C CNN
+F 3 "" H 4600 6900 50  0001 C CNN
+	1    4600 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6900 4600 7050
+Wire Wire Line
+	4600 7050 4600 7150
+Connection ~ 4600 7050
+$Comp
+L power:GND #PWR016
+U 1 1 5BE280CF
+P 5000 7400
+F 0 "#PWR016" H 5000 7150 50  0001 C CNN
+F 1 "GND" H 5005 7227 50  0000 C CNN
+F 2 "" H 5000 7400 50  0001 C CNN
+F 3 "" H 5000 7400 50  0001 C CNN
+	1    5000 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7400 5000 7350
+Wire Wire Line
+	3900 7250 5000 7250
+Wire Wire Line
+	3900 7350 5000 7350
+Connection ~ 5000 7350
+Wire Wire Line
+	5000 7350 5000 7250
+Text Label 4450 7450 0    50   ~ 0
+DIN
+Text Label 4400 7550 0    50   ~ 0
+DOUT
+$Comp
+L Device:C_Small C1
+U 1 1 5BE9E4E8
+P 5500 7200
+F 0 "C1" H 5592 7246 50  0000 L CNN
+F 1 "10uF" H 5592 7155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5500 7200 50  0001 C CNN
+F 3 "~" H 5500 7200 50  0001 C CNN
+	1    5500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR021
+U 1 1 5BE9EA6D
+P 5500 7050
+F 0 "#PWR021" H 5500 6900 50  0001 C CNN
+F 1 "VCC" H 5517 7223 50  0000 C CNN
+F 2 "" H 5500 7050 50  0001 C CNN
+F 3 "" H 5500 7050 50  0001 C CNN
+	1    5500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5BED95C4
+P 5500 7300
+F 0 "#PWR022" H 5500 7050 50  0001 C CNN
+F 1 "GND" H 5505 7127 50  0000 C CNN
+F 2 "" H 5500 7300 50  0001 C CNN
+F 3 "" H 5500 7300 50  0001 C CNN
+	1    5500 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 7050 5500 7100
+Text Label 4350 7050 0    50   ~ 0
+VCC
+Text Label 4350 7250 0    50   ~ 0
+GND
+$Comp
+L LED:SK6812 D1
+U 1 1 5BF9AE5B
+P 1250 1000
+F 0 "D1" H 1350 1250 50  0000 L CNN
+F 1 "SK6812" H 1300 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1350 625 50  0001 L TNN
+	1    1250 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1300 1250 1300
+Wire Wire Line
+	700  700  1250 700 
+Connection ~ 1250 1300
+Wire Wire Line
+	1250 1300 1850 1300
+Connection ~ 1250 700 
+Wire Wire Line
+	1250 700  1850 700 
+$Comp
+L LED:SK6812 D8
+U 1 1 5BFCB62E
+P 1850 1000
+F 0 "D8" H 1950 1250 50  0000 L CNN
+F 1 "SK6812" H 1900 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1950 625 50  0001 L TNN
+	1    1850 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1300
+Wire Wire Line
+	1850 1300 2450 1300
+Connection ~ 1850 700 
+Wire Wire Line
+	1850 700  2450 700 
+$Comp
+L LED:SK6812 D15
+U 1 1 5BFCB764
+P 2450 1000
+F 0 "D15" H 2500 1250 50  0000 L CNN
+F 1 "SK6812" H 2500 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2550 625 50  0001 L TNN
+	1    2450 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 1300
+Wire Wire Line
+	2450 1300 3050 1300
+Connection ~ 2450 700 
+Wire Wire Line
+	2450 700  3050 700 
+$Comp
+L LED:SK6812 D22
+U 1 1 5BFCB8A0
+P 3050 1000
+F 0 "D22" H 3100 1250 50  0000 L CNN
+F 1 "SK6812" H 3100 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3150 625 50  0001 L TNN
+	1    3050 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 1300
+Wire Wire Line
+	3050 1300 3650 1300
+Connection ~ 3050 700 
+Wire Wire Line
+	3050 700  3650 700 
+$Comp
+L LED:SK6812 D28
+U 1 1 5BFCB9E4
+P 3650 1000
+F 0 "D28" H 3700 1250 50  0000 L CNN
+F 1 "SK6812" H 3700 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3750 625 50  0001 L TNN
+	1    3650 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 1300
+Wire Wire Line
+	3650 1300 4250 1300
+Connection ~ 3650 700 
+Wire Wire Line
+	3650 700  4250 700 
+$Comp
+L LED:SK6812 D34
+U 1 1 5BFCBB1A
+P 4250 1000
+F 0 "D34" H 4300 1250 50  0000 L CNN
+F 1 "SK6812" H 4300 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4350 625 50  0001 L TNN
+	1    4250 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 1300
+Wire Wire Line
+	4250 1300 4850 1300
+Connection ~ 4250 700 
+Wire Wire Line
+	4250 700  4850 700 
+$Comp
+L LED:SK6812 D40
+U 1 1 5BFCBC54
+P 4850 1000
+F 0 "D40" H 4900 1250 50  0000 L CNN
+F 1 "SK6812" H 4900 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4950 625 50  0001 L TNN
+	1    4850 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 1300
+Wire Wire Line
+	4850 1300 5450 1300
+Connection ~ 4850 700 
+Wire Wire Line
+	4850 700  5450 700 
+$Comp
+L LED:SK6812 D46
+U 1 1 5BFCBF44
+P 5450 1000
+F 0 "D46" H 5500 1250 50  0000 L CNN
+F 1 "SK6812" H 5500 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5500 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5550 625 50  0001 L TNN
+	1    5450 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 1300
+Wire Wire Line
+	5450 1300 6050 1300
+Connection ~ 5450 700 
+Wire Wire Line
+	5450 700  6050 700 
+$Comp
+L LED:SK6812 D51
+U 1 1 5BFCC084
+P 6050 1000
+F 0 "D51" H 6100 1250 50  0000 L CNN
+F 1 "SK6812" H 6050 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6100 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6150 625 50  0001 L TNN
+	1    6050 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 1300
+Wire Wire Line
+	6050 1300 6650 1300
+Connection ~ 6050 700 
+Wire Wire Line
+	6050 700  6650 700 
+$Comp
+L LED:SK6812 D55
+U 1 1 5BFCC1CE
+P 6650 1000
+F 0 "D55" H 6700 1250 50  0000 L CNN
+F 1 "SK6812" H 6700 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6700 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6750 625 50  0001 L TNN
+	1    6650 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 1300
+Wire Wire Line
+	6650 1300 7250 1300
+Connection ~ 6650 700 
+Wire Wire Line
+	6650 700  7250 700 
+$Comp
+L LED:SK6812 D59
+U 1 1 5BFCC30C
+P 7250 1000
+F 0 "D59" H 7300 1250 50  0000 L CNN
+F 1 "SK6812" H 7250 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7300 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7350 625 50  0001 L TNN
+	1    7250 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 1300
+Wire Wire Line
+	7250 1300 7850 1300
+Connection ~ 7250 700 
+Wire Wire Line
+	7250 700  7850 700 
+$Comp
+L LED:SK6812 D62
+U 1 1 5BFCC508
+P 7850 1000
+F 0 "D62" H 7900 1250 50  0000 L CNN
+F 1 "SK6812" H 7850 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7900 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7950 625 50  0001 L TNN
+	1    7850 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 1300
+Wire Wire Line
+	7850 1300 8450 1300
+Connection ~ 7850 700 
+Wire Wire Line
+	7850 700  8450 700 
+$Comp
+L LED:SK6812 D65
+U 1 1 5BFCC648
+P 8450 1000
+F 0 "D65" H 8500 1250 50  0000 L CNN
+F 1 "SK6812" H 8450 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8500 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8550 625 50  0001 L TNN
+	1    8450 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 1300
+Wire Wire Line
+	8450 1300 9050 1300
+Connection ~ 8450 700 
+Wire Wire Line
+	8450 700  9050 700 
+$Comp
+L LED:SK6812 D66
+U 1 1 5BFCC962
+P 9050 1000
+F 0 "D66" H 9100 1250 50  0000 L CNN
+F 1 "SK6812" H 9050 750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9100 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9150 625 50  0001 L TNN
+	1    9050 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  2300 1250 2300
+Wire Wire Line
+	700  1700 1250 1700
+$Comp
+L LED:SK6812 D2
+U 1 1 5BFFC910
+P 1250 2000
+F 0 "D2" H 1350 2250 50  0000 L CNN
+F 1 "SK6812" H 1250 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1350 1625 50  0001 L TNN
+	1    1250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D9
+U 1 1 5BFFC917
+P 1850 2000
+F 0 "D9" H 1950 2250 50  0000 L CNN
+F 1 "SK6812" H 1850 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1950 1625 50  0001 L TNN
+	1    1850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D16
+U 1 1 5BFFC91E
+P 2450 2000
+F 0 "D16" H 2500 2250 50  0000 L CNN
+F 1 "SK6812" H 2450 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2550 1625 50  0001 L TNN
+	1    2450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D23
+U 1 1 5BFFC925
+P 3050 2000
+F 0 "D23" H 3100 2250 50  0000 L CNN
+F 1 "SK6812" H 3050 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3150 1625 50  0001 L TNN
+	1    3050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D29
+U 1 1 5BFFC92C
+P 3650 2000
+F 0 "D29" H 3700 2250 50  0000 L CNN
+F 1 "SK6812" H 3650 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3750 1625 50  0001 L TNN
+	1    3650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D35
+U 1 1 5BFFC933
+P 4250 2000
+F 0 "D35" H 4300 2250 50  0000 L CNN
+F 1 "SK6812" H 4250 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4350 1625 50  0001 L TNN
+	1    4250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D41
+U 1 1 5BFFC93A
+P 4850 2000
+F 0 "D41" H 4900 2250 50  0000 L CNN
+F 1 "SK6812" H 4850 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4950 1625 50  0001 L TNN
+	1    4850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D47
+U 1 1 5BFFC941
+P 5450 2000
+F 0 "D47" H 5500 2250 50  0000 L CNN
+F 1 "SK6812" H 5450 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5500 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5550 1625 50  0001 L TNN
+	1    5450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D52
+U 1 1 5BFFC948
+P 6050 2000
+F 0 "D52" H 6100 2250 50  0000 L CNN
+F 1 "SK6812" H 6050 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6100 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6150 1625 50  0001 L TNN
+	1    6050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D56
+U 1 1 5BFFC94F
+P 6650 2000
+F 0 "D56" H 6700 2250 50  0000 L CNN
+F 1 "SK6812" H 6650 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6700 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6750 1625 50  0001 L TNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D60
+U 1 1 5BFFC956
+P 7250 2000
+F 0 "D60" H 7300 2250 50  0000 L CNN
+F 1 "SK6812" H 7250 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7300 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7350 1625 50  0001 L TNN
+	1    7250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D63
+U 1 1 5BFFC95D
+P 7850 2000
+F 0 "D63" H 7900 2250 50  0000 L CNN
+F 1 "SK6812" H 7850 1750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7900 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7950 1625 50  0001 L TNN
+	1    7850 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 1700
+Wire Wire Line
+	1250 1700 1850 1700
+Connection ~ 1250 2300
+Wire Wire Line
+	1250 2300 1850 2300
+Connection ~ 1850 1700
+Wire Wire Line
+	1850 1700 2450 1700
+Connection ~ 1850 2300
+Wire Wire Line
+	1850 2300 2450 2300
+Connection ~ 2450 1700
+Wire Wire Line
+	2450 1700 3050 1700
+Connection ~ 2450 2300
+Wire Wire Line
+	2450 2300 3050 2300
+Connection ~ 3050 1700
+Wire Wire Line
+	3050 1700 3650 1700
+Connection ~ 3050 2300
+Wire Wire Line
+	3050 2300 3650 2300
+Connection ~ 3650 1700
+Wire Wire Line
+	3650 1700 4250 1700
+Connection ~ 3650 2300
+Wire Wire Line
+	3650 2300 4250 2300
+Connection ~ 4250 1700
+Wire Wire Line
+	4250 1700 4850 1700
+Connection ~ 4250 2300
+Wire Wire Line
+	4250 2300 4850 2300
+Connection ~ 4850 1700
+Wire Wire Line
+	4850 1700 5450 1700
+Connection ~ 4850 2300
+Wire Wire Line
+	4850 2300 5450 2300
+Connection ~ 5450 1700
+Wire Wire Line
+	5450 1700 6050 1700
+Connection ~ 5450 2300
+Wire Wire Line
+	5450 2300 6050 2300
+Connection ~ 6050 1700
+Wire Wire Line
+	6050 1700 6650 1700
+Connection ~ 6050 2300
+Wire Wire Line
+	6050 2300 6650 2300
+Connection ~ 6650 1700
+Wire Wire Line
+	6650 1700 7250 1700
+Connection ~ 6650 2300
+Wire Wire Line
+	6650 2300 7250 2300
+Connection ~ 7250 1700
+Wire Wire Line
+	7250 1700 7850 1700
+Connection ~ 7250 2300
+Wire Wire Line
+	7250 2300 7850 2300
+Wire Wire Line
+	550  2600 1250 2600
+Wire Wire Line
+	850  3200 1250 3200
+$Comp
+L LED:SK6812 D3
+U 1 1 5C0B4F4B
+P 1250 2900
+F 0 "D3" H 1350 3150 50  0000 L CNN
+F 1 "SK6812" H 1250 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1350 2525 50  0001 L TNN
+	1    1250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D10
+U 1 1 5C0B4F52
+P 1850 2900
+F 0 "D10" H 1900 3150 50  0000 L CNN
+F 1 "SK6812" H 1850 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1950 2525 50  0001 L TNN
+	1    1850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D17
+U 1 1 5C0B4F59
+P 2450 2900
+F 0 "D17" H 2500 3150 50  0000 L CNN
+F 1 "SK6812" H 2450 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2550 2525 50  0001 L TNN
+	1    2450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D24
+U 1 1 5C0B4F60
+P 3050 2900
+F 0 "D24" H 3100 3150 50  0000 L CNN
+F 1 "SK6812" H 3050 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3150 2525 50  0001 L TNN
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D30
+U 1 1 5C0B4F67
+P 3650 2900
+F 0 "D30" H 3700 3150 50  0000 L CNN
+F 1 "SK6812" H 3700 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3750 2525 50  0001 L TNN
+	1    3650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D36
+U 1 1 5C0B4F6E
+P 4250 2900
+F 0 "D36" H 4300 3150 50  0000 L CNN
+F 1 "SK6812" H 4250 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4350 2525 50  0001 L TNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D42
+U 1 1 5C0B4F75
+P 4850 2900
+F 0 "D42" H 4900 3150 50  0000 L CNN
+F 1 "SK6812" H 4850 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4950 2525 50  0001 L TNN
+	1    4850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D48
+U 1 1 5C0B4F7C
+P 5450 2900
+F 0 "D48" H 5550 3150 50  0000 L CNN
+F 1 "SK6812" H 5450 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5500 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5550 2525 50  0001 L TNN
+	1    5450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D53
+U 1 1 5C0B4F83
+P 6050 2900
+F 0 "D53" H 6100 3150 50  0000 L CNN
+F 1 "SK6812" H 6050 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6100 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6150 2525 50  0001 L TNN
+	1    6050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D57
+U 1 1 5C0B4F8A
+P 6650 2900
+F 0 "D57" H 6700 3150 50  0000 L CNN
+F 1 "SK6812" H 6650 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6700 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6750 2525 50  0001 L TNN
+	1    6650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D61
+U 1 1 5C0B4F91
+P 7250 2900
+F 0 "D61" H 7300 3150 50  0000 L CNN
+F 1 "SK6812" H 7250 2650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7300 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7350 2525 50  0001 L TNN
+	1    7250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D64
+U 1 1 5C0B4F98
+P 7850 2900
+F 0 "D64" H 8191 2946 50  0000 L CNN
+F 1 "SK6812" H 8191 2855 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7900 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7950 2525 50  0001 L TNN
+	1    7850 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 2600
+Wire Wire Line
+	1250 2600 1850 2600
+Connection ~ 1850 2600
+Wire Wire Line
+	1850 2600 2450 2600
+Connection ~ 2450 2600
+Wire Wire Line
+	2450 2600 3050 2600
+Connection ~ 1250 3200
+Wire Wire Line
+	1250 3200 1850 3200
+Connection ~ 1850 3200
+Wire Wire Line
+	1850 3200 2450 3200
+Connection ~ 2450 3200
+Wire Wire Line
+	2450 3200 3050 3200
+Connection ~ 3050 2600
+Wire Wire Line
+	3050 2600 3650 2600
+Connection ~ 3650 2600
+Wire Wire Line
+	3650 2600 4250 2600
+Connection ~ 4250 2600
+Wire Wire Line
+	4250 2600 4850 2600
+Connection ~ 4850 2600
+Wire Wire Line
+	4850 2600 5450 2600
+Connection ~ 4850 3200
+Wire Wire Line
+	4850 3200 5450 3200
+Connection ~ 4250 3200
+Wire Wire Line
+	4250 3200 4850 3200
+Connection ~ 3650 3200
+Wire Wire Line
+	3650 3200 4250 3200
+Connection ~ 3050 3200
+Wire Wire Line
+	3050 3200 3650 3200
+Connection ~ 5450 2600
+Wire Wire Line
+	5450 2600 6050 2600
+Connection ~ 5450 3200
+Wire Wire Line
+	5450 3200 6050 3200
+Connection ~ 6050 2600
+Wire Wire Line
+	6050 2600 6650 2600
+Connection ~ 6050 3200
+Wire Wire Line
+	6050 3200 6650 3200
+Connection ~ 6650 3200
+Wire Wire Line
+	6650 3200 7250 3200
+Connection ~ 6650 2600
+Wire Wire Line
+	6650 2600 7250 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 2600 7850 2600
+Connection ~ 7250 3200
+Wire Wire Line
+	7250 3200 7850 3200
+Wire Wire Line
+	800  4150 1300 4150
+Wire Wire Line
+	550  3550 1300 3550
+$Comp
+L LED:SK6812 D4
+U 1 1 5C117321
+P 1300 3850
+F 0 "D4" H 1400 4100 50  0000 L CNN
+F 1 "SK6812" H 1350 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1350 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1400 3475 50  0001 L TNN
+	1    1300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D11
+U 1 1 5C117328
+P 1900 3850
+F 0 "D11" H 1950 4100 50  0000 L CNN
+F 1 "SK6812" H 1900 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1950 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2000 3475 50  0001 L TNN
+	1    1900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D18
+U 1 1 5C11732F
+P 2500 3850
+F 0 "D18" H 2550 4100 50  0000 L CNN
+F 1 "SK6812" H 2500 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2600 3475 50  0001 L TNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D25
+U 1 1 5C117336
+P 3100 3850
+F 0 "D25" H 3150 4100 50  0000 L CNN
+F 1 "SK6812" H 3100 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3150 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3200 3475 50  0001 L TNN
+	1    3100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D31
+U 1 1 5C11733D
+P 3700 3850
+F 0 "D31" H 3750 4100 50  0000 L CNN
+F 1 "SK6812" H 3700 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3750 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3800 3475 50  0001 L TNN
+	1    3700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D37
+U 1 1 5C117344
+P 4300 3850
+F 0 "D37" H 4350 4100 50  0000 L CNN
+F 1 "SK6812" H 4300 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4350 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4400 3475 50  0001 L TNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D43
+U 1 1 5C11734B
+P 4900 3850
+F 0 "D43" H 4950 4100 50  0000 L CNN
+F 1 "SK6812" H 4900 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4950 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5000 3475 50  0001 L TNN
+	1    4900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D49
+U 1 1 5C117352
+P 5500 3850
+F 0 "D49" H 5550 4100 50  0000 L CNN
+F 1 "SK6812" H 5500 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5550 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5600 3475 50  0001 L TNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D54
+U 1 1 5C117359
+P 6100 3850
+F 0 "D54" H 6150 4100 50  0000 L CNN
+F 1 "SK6812" H 6100 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6150 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6200 3475 50  0001 L TNN
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D58
+U 1 1 5C117360
+P 6700 3850
+F 0 "D58" H 6750 4100 50  0000 L CNN
+F 1 "SK6812" H 6700 3600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6750 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6800 3475 50  0001 L TNN
+	1    6700 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 3550
+Wire Wire Line
+	6100 3550 6700 3550
+Connection ~ 5500 3550
+Wire Wire Line
+	5500 3550 6100 3550
+Connection ~ 4900 3550
+Wire Wire Line
+	4900 3550 5500 3550
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 5500 4150
+Connection ~ 5500 4150
+Wire Wire Line
+	5500 4150 6100 4150
+Connection ~ 6100 4150
+Wire Wire Line
+	6100 4150 6700 4150
+Connection ~ 4300 3550
+Wire Wire Line
+	4300 3550 4900 3550
+Connection ~ 4300 4150
+Wire Wire Line
+	4300 4150 4900 4150
+Connection ~ 3700 4150
+Wire Wire Line
+	3700 4150 4300 4150
+Connection ~ 3700 3550
+Wire Wire Line
+	3700 3550 4300 3550
+Connection ~ 3100 3550
+Wire Wire Line
+	3100 3550 3700 3550
+Connection ~ 3100 4150
+Wire Wire Line
+	3100 4150 3700 4150
+Connection ~ 2500 4150
+Wire Wire Line
+	2500 4150 3100 4150
+Connection ~ 2500 3550
+Wire Wire Line
+	2500 3550 3100 3550
+Connection ~ 1900 3550
+Wire Wire Line
+	1900 3550 2500 3550
+Connection ~ 1900 4150
+Wire Wire Line
+	1900 4150 2500 4150
+Connection ~ 1300 3550
+Wire Wire Line
+	1300 3550 1900 3550
+Connection ~ 1300 4150
+Wire Wire Line
+	1300 4150 1900 4150
+Wire Wire Line
+	800  5150 1300 5150
+Wire Wire Line
+	600  4550 1300 4550
+$Comp
+L LED:SK6812 D5
+U 1 1 5C175FD5
+P 1300 4850
+F 0 "D5" H 1400 5100 50  0000 L CNN
+F 1 "SK6812" H 1300 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1350 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1400 4475 50  0001 L TNN
+	1    1300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D12
+U 1 1 5C175FDC
+P 1900 4850
+F 0 "D12" H 1950 5100 50  0000 L CNN
+F 1 "SK6812" H 1900 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1950 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2000 4475 50  0001 L TNN
+	1    1900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D19
+U 1 1 5C175FE3
+P 2500 4850
+F 0 "D19" H 2550 5100 50  0000 L CNN
+F 1 "SK6812" H 2500 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2600 4475 50  0001 L TNN
+	1    2500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D26
+U 1 1 5C175FEA
+P 3100 4850
+F 0 "D26" H 3150 5100 50  0000 L CNN
+F 1 "SK6812" H 3100 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3150 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3200 4475 50  0001 L TNN
+	1    3100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D32
+U 1 1 5C175FF1
+P 3700 4850
+F 0 "D32" H 3750 5100 50  0000 L CNN
+F 1 "SK6812" H 3750 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3750 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3800 4475 50  0001 L TNN
+	1    3700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D38
+U 1 1 5C175FF8
+P 4300 4850
+F 0 "D38" H 4350 5100 50  0000 L CNN
+F 1 "SK6812" H 4300 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4350 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4400 4475 50  0001 L TNN
+	1    4300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D44
+U 1 1 5C175FFF
+P 4900 4850
+F 0 "D44" H 4950 5100 50  0000 L CNN
+F 1 "SK6812" H 4900 4600 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4950 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5000 4475 50  0001 L TNN
+	1    4900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D50
+U 1 1 5C176006
+P 5500 4850
+F 0 "D50" H 5841 4896 50  0000 L CNN
+F 1 "SK6812" H 5841 4805 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5550 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5600 4475 50  0001 L TNN
+	1    5500 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 4550
+Wire Wire Line
+	1300 4550 1900 4550
+Connection ~ 1300 5150
+Wire Wire Line
+	1300 5150 1900 5150
+Connection ~ 1900 5150
+Wire Wire Line
+	1900 5150 2500 5150
+Connection ~ 1900 4550
+Wire Wire Line
+	1900 4550 2500 4550
+Connection ~ 2500 4550
+Wire Wire Line
+	2500 4550 3100 4550
+Connection ~ 2500 5150
+Wire Wire Line
+	2500 5150 3100 5150
+Connection ~ 3100 4550
+Wire Wire Line
+	3100 4550 3700 4550
+Connection ~ 3100 5150
+Wire Wire Line
+	3100 5150 3700 5150
+Connection ~ 3700 5150
+Wire Wire Line
+	3700 5150 4300 5150
+Connection ~ 4300 5150
+Wire Wire Line
+	4300 5150 4900 5150
+Connection ~ 4900 5150
+Wire Wire Line
+	4900 5150 5500 5150
+Connection ~ 4900 4550
+Wire Wire Line
+	4900 4550 5500 4550
+Connection ~ 4300 4550
+Wire Wire Line
+	4300 4550 4900 4550
+Connection ~ 3700 4550
+Wire Wire Line
+	3700 4550 4300 4550
+Wire Wire Line
+	850  6200 1300 6200
+Wire Wire Line
+	600  5600 1300 5600
+$Comp
+L LED:SK6812 D6
+U 1 1 5C1D595C
+P 1300 5900
+F 0 "D6" H 1400 6150 50  0000 L CNN
+F 1 "SK6812" H 1300 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1350 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1400 5525 50  0001 L TNN
+	1    1300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D13
+U 1 1 5C1D5963
+P 1900 5900
+F 0 "D13" H 1950 6150 50  0000 L CNN
+F 1 "SK6812" H 1900 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1950 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2000 5525 50  0001 L TNN
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D20
+U 1 1 5C1D596A
+P 2500 5900
+F 0 "D20" H 2550 6150 50  0000 L CNN
+F 1 "SK6812" H 2500 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2600 5525 50  0001 L TNN
+	1    2500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D27
+U 1 1 5C1D5971
+P 3100 5900
+F 0 "D27" H 3150 6150 50  0000 L CNN
+F 1 "SK6812" H 3100 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3150 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3200 5525 50  0001 L TNN
+	1    3100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D33
+U 1 1 5C1D5978
+P 3700 5900
+F 0 "D33" H 3750 6150 50  0000 L CNN
+F 1 "SK6812" H 3700 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3750 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3800 5525 50  0001 L TNN
+	1    3700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D39
+U 1 1 5C1D597F
+P 4300 5900
+F 0 "D39" H 4350 6150 50  0000 L CNN
+F 1 "SK6812" H 4300 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4350 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4400 5525 50  0001 L TNN
+	1    4300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D45
+U 1 1 5C1D5986
+P 4900 5900
+F 0 "D45" H 4950 6150 50  0000 L CNN
+F 1 "SK6812" H 4950 5650 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4950 5600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5000 5525 50  0001 L TNN
+	1    4900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7100 1350 7100
+Wire Wire Line
+	600  6500 1350 6500
+$Comp
+L LED:SK6812 D7
+U 1 1 5C232D79
+P 1350 6800
+F 0 "D7" H 1450 7050 50  0000 L CNN
+F 1 "SK6812" H 1350 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1400 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1450 6425 50  0001 L TNN
+	1    1350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D14
+U 1 1 5C232D80
+P 1950 6800
+F 0 "D14" H 2000 7050 50  0000 L CNN
+F 1 "SK6812" H 2000 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2000 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2050 6425 50  0001 L TNN
+	1    1950 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D21
+U 1 1 5C232D87
+P 2550 6800
+F 0 "D21" H 2891 6846 50  0000 L CNN
+F 1 "SK6812" H 2891 6755 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2600 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2650 6425 50  0001 L TNN
+	1    2550 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 5600
+Wire Wire Line
+	1300 5600 1900 5600
+Connection ~ 1900 5600
+Wire Wire Line
+	1900 5600 2500 5600
+Connection ~ 2500 5600
+Wire Wire Line
+	2500 5600 3100 5600
+Connection ~ 2500 6200
+Wire Wire Line
+	2500 6200 3100 6200
+Connection ~ 1900 6200
+Wire Wire Line
+	1900 6200 2500 6200
+Connection ~ 1300 6200
+Wire Wire Line
+	1300 6200 1900 6200
+Connection ~ 3100 5600
+Wire Wire Line
+	3100 5600 3700 5600
+Connection ~ 3100 6200
+Wire Wire Line
+	3100 6200 3700 6200
+Connection ~ 3700 6200
+Wire Wire Line
+	3700 6200 4300 6200
+Connection ~ 3700 5600
+Wire Wire Line
+	3700 5600 4300 5600
+Connection ~ 4300 5600
+Wire Wire Line
+	4300 5600 4900 5600
+Connection ~ 4300 6200
+Wire Wire Line
+	4300 6200 4900 6200
+Connection ~ 1950 6500
+Wire Wire Line
+	1950 6500 2550 6500
+Connection ~ 1350 6500
+Wire Wire Line
+	1350 6500 1950 6500
+Connection ~ 1950 7100
+Wire Wire Line
+	1950 7100 2550 7100
+Connection ~ 1350 7100
+Wire Wire Line
+	1350 7100 1950 7100
+Wire Wire Line
+	1000 4350 7000 4350
+Wire Wire Line
+	7000 3850 7000 4350
+Wire Wire Line
+	1000 5400 5800 5400
+Wire Wire Line
+	5800 4850 5800 5400
+Text Label 750  1300 0    50   ~ 0
+GND
+$EndSCHEMATC
