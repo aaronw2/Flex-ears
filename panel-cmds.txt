@@ -1,0 +1,11 @@
+clone-nets true
+load Ears.kicad_pcb
+compat latest
+set-title Flex-ears
+set-rev 1.0
+source-area 13 15 116 135
+rotate-180 95 15
+rotate-180  12 135
+copy 94 135
+include-layer Edge.Cuts
+save panelized-ears.kicad_pcb
